@@ -1,0 +1,15 @@
+.relativesq {
+	position: relative;
+	border-color: black;
+	width: 500px;
+	height: 500px;
+	background-color: cyan;
+}
+.absolutesq {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}

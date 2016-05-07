@@ -1,0 +1,84 @@
+.body {
+	background-image: url(http://a.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/06/3031332-poster-p-1-young-adult-books-pubbing.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+}
+
+.blockquote {
+	
+	padding:2em;
+	border: 4px;
+}
+
+.header {
+	width:30%;
+	padding: 1px;
+	border: 4px 4px 4px 4px;
+	border-radius: 0px;
+	color: #FFFAD5;
+	font-size: 50px;
+	text-align: center;
+	opacity: 0.8;
+	border-radius: 10px;
+	position: fixed;
+	top: 15%;
+	left: 35%;
+	background-color: #495163;
+}
+
+h1:hover (
+	background-color: #FFFAD5;
+)
+
+.para {
+	font-size: 10px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: #FFFAD5;
+    opacity: 0.7;
+    font-size: 50px;
+    padding: 15px;
+    display:inline-block;
+    list-style-type: none;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  opacity: 0.9;
+}
+ul li {
+	display: inline-block;
+	text-decoration: none; 
+}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 350px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {
+	display:block !important;
+	color: white;
+	opacity: 0.6;
+} 
+ul li ul li:hover {background: #666;}
+a:link {
+	text-decoration: none;
+	color: white;
+	opacity: 0.6;
+}
